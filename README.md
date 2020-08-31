@@ -1,6 +1,6 @@
 # How to startup
 
-1. create an .env file insite 'server/' folder
+1. create an .env file inside 'server/' folder
 2. for test purposes, copy these lines inside your created '.env':
 
 ```
