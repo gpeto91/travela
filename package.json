@@ -1,0 +1,16 @@
+{
+  "name": "travela",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "setup": "yarn install && (cd app && yarn install) && (cd.. && cd server && yarn install)",
+    "dev": "concurrently \"(cd app && yarn dev)\" \"(cd server && yarn start)\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "dependencies": {
+    "apollo-link-error": "^1.1.13"
+  }
+}
