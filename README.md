@@ -15,4 +15,4 @@ DB_NAME=beeleads
 5. access `http://localhost:3000` (Front-end)
 6. access `http://localhost:4000` (GraphQL Playground)
 
-This project was made with ApolloServer + GraphQL + MongoDB for the server and React + NextJS for the front-end.
+This project is made with ApolloServer + GraphQL + MongoDB for the server and React + NextJS for the front-end.
